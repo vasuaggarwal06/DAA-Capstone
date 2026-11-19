@@ -1,0 +1,35 @@
+=== Parcels sorted by deadline (merge sort) ===
+     P8 deadline= 3h weight= 2 value= 39 dest=node 7
+     P5 deadline=11h weight=18 value= 41 dest=node 4
+     P1 deadline=18h weight= 4 value= 58 dest=node 4
+     P3 deadline=18h weight= 7 value= 95 dest=node 6
+     P9 deadline=18h weight=11 value= 61 dest=node 1
+     P2 deadline=24h weight=12 value= 30 dest=node 3
+     P4 deadline=41h weight= 3 value= 87 dest=node 2
+     P6 deadline=41h weight=13 value= 44 dest=node 6
+     P7 deadline=44h weight=18 value= 38 dest=node 3
+    P10 deadline=46h weight= 7 value= 82 dest=node 3
+
+=== Knapsack (capacity 40) ===
+  Best total value : 422
+  Total weight     : 34
+  Selected parcels : P8, P1, P3, P9, P4, P10
+
+=== Shortest distance from depot (Dijkstra) ===
+  depot -> node 1: 2
+  depot -> node 2: 11
+  depot -> node 3: 6
+  depot -> node 4: 8
+  depot -> node 6: 9
+  depot -> node 7: 4
+
+=== Delivery route (nearest-neighbor TSP) ===
+  Stop order : 0 -> 1 -> 7 -> 4 -> 6 -> 3 -> 2 -> 0
+  Full path  : 0 -> 1 -> 0 -> 7 -> 4 -> 6 -> 3 -> 5 -> 2 -> 1 -> 0
+  Route length: 39
+
+=== Runtime (seconds) ===
+  sorting  : 0.000018
+  knapsack : 0.000054
+  dijkstra : 0.000020
+  tsp      : 0.000084

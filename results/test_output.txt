@@ -1,0 +1,11 @@
+test_dijkstra (test_planner.TestGraph.test_dijkstra) ... ok
+test_tsp_visits_all_and_returns (test_planner.TestGraph.test_tsp_visits_all_and_returns) ... ok
+test_classic (test_planner.TestKnapsack.test_classic) ... ok
+test_matches_brute_force (test_planner.TestKnapsack.test_matches_brute_force) ... ok
+test_all_sorts_match_builtin (test_planner.TestSorting.test_all_sorts_match_builtin) ... ok
+test_merge_sort_stable (test_planner.TestSorting.test_merge_sort_stable) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK

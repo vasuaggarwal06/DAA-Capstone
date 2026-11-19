@@ -1,0 +1,1282 @@
+=== Parcels sorted by deadline (merge sort) ===
+    P22 deadline= 1h weight=14 value= 59 dest=node 361
+    P81 deadline= 1h weight=15 value= 68 dest=node 220
+    P90 deadline= 1h weight=15 value= 11 dest=node 357
+   P111 deadline= 1h weight= 3 value= 77 dest=node 185
+   P115 deadline= 1h weight=19 value= 18 dest=node 135
+   P128 deadline= 1h weight= 6 value= 25 dest=node 363
+   P129 deadline= 1h weight= 5 value= 99 dest=node 84
+   P140 deadline= 1h weight= 1 value= 15 dest=node 126
+   P149 deadline= 1h weight=18 value= 68 dest=node 189
+   P181 deadline= 1h weight= 5 value= 25 dest=node 32
+   P234 deadline= 1h weight=11 value= 67 dest=node 136
+   P280 deadline= 1h weight=17 value= 68 dest=node 359
+   P357 deadline= 1h weight= 7 value= 57 dest=node 165
+   P387 deadline= 1h weight= 8 value= 10 dest=node 344
+   P395 deadline= 1h weight= 4 value= 15 dest=node 71
+   P491 deadline= 1h weight=18 value= 93 dest=node 59
+   P500 deadline= 1h weight=18 value= 78 dest=node 321
+   P553 deadline= 1h weight=12 value= 74 dest=node 340
+   P721 deadline= 1h weight= 5 value= 48 dest=node 1
+   P723 deadline= 1h weight=16 value= 78 dest=node 353
+   P758 deadline= 1h weight=14 value= 51 dest=node 86
+   P777 deadline= 1h weight=12 value= 68 dest=node 398
+   P812 deadline= 1h weight=15 value= 60 dest=node 372
+   P853 deadline= 1h weight= 5 value= 46 dest=node 176
+   P933 deadline= 1h weight=20 value= 42 dest=node 235
+   P968 deadline= 1h weight=18 value= 51 dest=node 59
+   P993 deadline= 1h weight=17 value= 24 dest=node 160
+    P20 deadline= 2h weight=14 value= 60 dest=node 378
+   P132 deadline= 2h weight= 9 value= 25 dest=node 172
+   P178 deadline= 2h weight= 9 value= 32 dest=node 208
+   P189 deadline= 2h weight=13 value= 73 dest=node 196
+   P201 deadline= 2h weight= 9 value= 33 dest=node 164
+   P202 deadline= 2h weight=20 value= 38 dest=node 399
+   P242 deadline= 2h weight= 2 value= 47 dest=node 164
+   P292 deadline= 2h weight= 9 value= 57 dest=node 173
+   P310 deadline= 2h weight= 3 value= 46 dest=node 198
+   P358 deadline= 2h weight=17 value= 34 dest=node 347
+   P405 deadline= 2h weight=12 value= 88 dest=node 351
+   P423 deadline= 2h weight=16 value= 93 dest=node 53
+   P460 deadline= 2h weight=17 value= 23 dest=node 196
+   P517 deadline= 2h weight=13 value= 94 dest=node 243
+   P546 deadline= 2h weight= 3 value= 19 dest=node 260
+   P590 deadline= 2h weight= 5 value= 23 dest=node 104
+   P645 deadline= 2h weight=15 value= 85 dest=node 247
+   P702 deadline= 2h weight= 6 value= 33 dest=node 65
+   P706 deadline= 2h weight=18 value= 16 dest=node 395
+   P875 deadline= 2h weight= 9 value= 59 dest=node 285
+   P892 deadline= 2h weight= 5 value= 33 dest=node 391
+   P962 deadline= 2h weight= 1 value= 25 dest=node 239
+   P970 deadline= 2h weight=19 value= 88 dest=node 90
+    P53 deadline= 3h weight= 8 value= 48 dest=node 231
+   P142 deadline= 3h weight= 5 value= 32 dest=node 284
+   P213 deadline= 3h weight= 6 value= 72 dest=node 47
+   P356 deadline= 3h weight=13 value= 10 dest=node 274
+   P370 deadline= 3h weight=12 value= 93 dest=node 193
+   P407 deadline= 3h weight=14 value= 66 dest=node 33
+   P424 deadline= 3h weight=13 value= 62 dest=node 286
+   P513 deadline= 3h weight= 3 value= 84 dest=node 359
+   P522 deadline= 3h weight= 5 value= 25 dest=node 3
+   P548 deadline= 3h weight=19 value= 37 dest=node 283
+   P561 deadline= 3h weight=16 value= 68 dest=node 21
+   P628 deadline= 3h weight=10 value= 34 dest=node 307
+   P760 deadline= 3h weight= 8 value= 11 dest=node 298
+   P770 deadline= 3h weight= 5 value= 42 dest=node 249
+   P788 deadline= 3h weight= 7 value= 22 dest=node 293
+   P818 deadline= 3h weight= 5 value= 22 dest=node 236
+   P927 deadline= 3h weight=18 value= 58 dest=node 394
+   P972 deadline= 3h weight=16 value= 70 dest=node 331
+   P995 deadline= 3h weight=11 value= 69 dest=node 53
+   P116 deadline= 4h weight= 7 value= 15 dest=node 204
+   P343 deadline= 4h weight= 4 value= 70 dest=node 325
+   P418 deadline= 4h weight=11 value= 45 dest=node 260
+   P463 deadline= 4h weight= 9 value= 28 dest=node 354
+   P470 deadline= 4h weight=11 value= 80 dest=node 7
+   P625 deadline= 4h weight=10 value= 86 dest=node 397
+   P756 deadline= 4h weight= 7 value= 56 dest=node 342
+   P764 deadline= 4h weight=11 value= 90 dest=node 31
+   P833 deadline= 4h weight= 8 value= 29 dest=node 345
+   P862 deadline= 4h weight=20 value= 44 dest=node 239
+   P953 deadline= 4h weight= 7 value= 88 dest=node 56
+    P13 deadline= 5h weight=15 value= 50 dest=node 154
+    P88 deadline= 5h weight= 7 value= 71 dest=node 68
+    P92 deadline= 5h weight= 5 value= 71 dest=node 118
+   P114 deadline= 5h weight= 6 value= 70 dest=node 9
+   P147 deadline= 5h weight= 2 value= 61 dest=node 239
+   P185 deadline= 5h weight= 3 value= 12 dest=node 102
+   P243 deadline= 5h weight= 9 value= 23 dest=node 176
+   P299 deadline= 5h weight=17 value= 30 dest=node 160
+   P324 deadline= 5h weight= 4 value= 71 dest=node 173
+   P504 deadline= 5h weight=14 value= 92 dest=node 383
+   P570 deadline= 5h weight= 6 value= 39 dest=node 264
+   P640 deadline= 5h weight= 4 value= 81 dest=node 258
+   P646 deadline= 5h weight= 4 value= 43 dest=node 196
+   P705 deadline= 5h weight= 4 value= 22 dest=node 243
+   P797 deadline= 5h weight= 3 value= 48 dest=node 111
+   P902 deadline= 5h weight= 7 value= 36 dest=node 91
+   P978 deadline= 5h weight=11 value= 55 dest=node 77
+    P54 deadline= 6h weight= 9 value= 54 dest=node 225
+    P84 deadline= 6h weight=12 value= 42 dest=node 191
+   P100 deadline= 6h weight=15 value= 37 dest=node 52
+   P121 deadline= 6h weight= 3 value= 49 dest=node 262
+   P159 deadline= 6h weight= 5 value= 45 dest=node 23
+   P173 deadline= 6h weight= 9 value= 25 dest=node 81
+   P186 deadline= 6h weight=15 value= 26 dest=node 170
+   P245 deadline= 6h weight= 3 value= 80 dest=node 174
+   P275 deadline= 6h weight= 2 value= 64 dest=node 350
+   P389 deadline= 6h weight=16 value= 29 dest=node 262
+   P420 deadline= 6h weight=13 value= 40 dest=node 236
+   P425 deadline= 6h weight=18 value= 10 dest=node 310
+   P506 deadline= 6h weight=11 value= 14 dest=node 38
+   P552 deadline= 6h weight=17 value= 75 dest=node 204
+   P621 deadline= 6h weight=20 value= 65 dest=node 33
+   P650 deadline= 6h weight= 8 value= 46 dest=node 205
+   P707 deadline= 6h weight=13 value= 77 dest=node 54
+   P719 deadline= 6h weight=18 value= 39 dest=node 227
+   P744 deadline= 6h weight= 2 value= 52 dest=node 385
+   P821 deadline= 6h weight= 9 value= 48 dest=node 293
+   P921 deadline= 6h weight= 7 value= 68 dest=node 129
+   P923 deadline= 6h weight= 6 value= 25 dest=node 59
+   P937 deadline= 6h weight=14 value= 66 dest=node 308
+    P15 deadline= 7h weight=11 value= 92 dest=node 347
+    P24 deadline= 7h weight= 3 value= 83 dest=node 275
+    P79 deadline= 7h weight= 2 value= 15 dest=node 321
+    P87 deadline= 7h weight= 3 value=100 dest=node 1
+   P221 deadline= 7h weight=13 value= 85 dest=node 173
+   P236 deadline= 7h weight=12 value= 42 dest=node 369
+   P252 deadline= 7h weight=10 value= 40 dest=node 26
+   P321 deadline= 7h weight=13 value= 84 dest=node 4
+   P337 deadline= 7h weight= 6 value= 47 dest=node 242
+   P392 deadline= 7h weight=15 value= 16 dest=node 90
+   P402 deadline= 7h weight= 2 value= 30 dest=node 214
+   P435 deadline= 7h weight= 5 value= 62 dest=node 131
+   P444 deadline= 7h weight= 6 value= 26 dest=node 199
+   P465 deadline= 7h weight=12 value= 67 dest=node 316
+   P499 deadline= 7h weight=17 value= 20 dest=node 86
+   P531 deadline= 7h weight= 3 value= 42 dest=node 102
+   P592 deadline= 7h weight= 5 value= 87 dest=node 91
+   P657 deadline= 7h weight=12 value= 29 dest=node 62
+   P669 deadline= 7h weight=13 value= 84 dest=node 167
+   P787 deadline= 7h weight= 2 value= 35 dest=node 249
+   P798 deadline= 7h weight=17 value= 22 dest=node 372
+   P908 deadline= 7h weight= 2 value= 76 dest=node 232
+    P14 deadline= 8h weight= 2 value=100 dest=node 12
+    P32 deadline= 8h weight= 5 value= 50 dest=node 123
+    P80 deadline= 8h weight=15 value= 12 dest=node 81
+   P145 deadline= 8h weight=19 value= 57 dest=node 258
+   P431 deadline= 8h weight=12 value= 67 dest=node 50
+   P456 deadline= 8h weight=11 value=100 dest=node 390
+   P494 deadline= 8h weight=11 value= 58 dest=node 198
+   P511 deadline= 8h weight=13 value= 96 dest=node 274
+   P594 deadline= 8h weight=18 value= 74 dest=node 48
+   P605 deadline= 8h weight=19 value= 76 dest=node 267
+   P641 deadline= 8h weight=10 value= 53 dest=node 263
+   P666 deadline= 8h weight= 6 value= 68 dest=node 358
+   P759 deadline= 8h weight= 9 value= 84 dest=node 203
+   P845 deadline= 8h weight=19 value= 21 dest=node 344
+  P1000 deadline= 8h weight=15 value= 95 dest=node 140
+    P64 deadline= 9h weight= 9 value= 93 dest=node 360
+    P77 deadline= 9h weight=18 value= 83 dest=node 290
+    P82 deadline= 9h weight= 7 value= 98 dest=node 333
+    P95 deadline= 9h weight= 5 value= 58 dest=node 329
+   P168 deadline= 9h weight= 3 value= 35 dest=node 395
+   P222 deadline= 9h weight=10 value= 51 dest=node 81
+   P294 deadline= 9h weight= 4 value= 39 dest=node 154
+   P300 deadline= 9h weight=17 value= 61 dest=node 269
+   P329 deadline= 9h weight=11 value= 97 dest=node 370
+   P347 deadline= 9h weight= 2 value= 29 dest=node 103
+   P365 deadline= 9h weight=14 value= 97 dest=node 176
+   P401 deadline= 9h weight= 6 value= 24 dest=node 357
+   P440 deadline= 9h weight=19 value= 74 dest=node 256
+   P448 deadline= 9h weight=10 value= 67 dest=node 71
+   P544 deadline= 9h weight= 3 value= 45 dest=node 276
+   P551 deadline= 9h weight=19 value= 47 dest=node 238
+   P569 deadline= 9h weight= 1 value= 74 dest=node 226
+   P577 deadline= 9h weight= 8 value= 15 dest=node 294
+   P578 deadline= 9h weight=19 value= 30 dest=node 323
+   P595 deadline= 9h weight=16 value= 94 dest=node 309
+   P663 deadline= 9h weight= 8 value= 83 dest=node 28
+   P714 deadline= 9h weight=18 value= 66 dest=node 358
+   P734 deadline= 9h weight= 3 value= 33 dest=node 149
+   P766 deadline= 9h weight=18 value= 23 dest=node 250
+   P786 deadline= 9h weight= 3 value= 15 dest=node 92
+   P819 deadline= 9h weight=12 value= 29 dest=node 136
+   P877 deadline= 9h weight=13 value= 94 dest=node 45
+   P882 deadline= 9h weight= 7 value= 93 dest=node 298
+    P65 deadline=10h weight= 5 value= 41 dest=node 365
+   P120 deadline=10h weight=18 value= 88 dest=node 143
+   P153 deadline=10h weight=18 value= 41 dest=node 4
+   P169 deadline=10h weight=19 value= 23 dest=node 55
+   P211 deadline=10h weight=19 value= 82 dest=node 289
+   P282 deadline=10h weight= 4 value= 63 dest=node 76
+   P327 deadline=10h weight=10 value= 34 dest=node 265
+   P481 deadline=10h weight= 5 value= 15 dest=node 166
+   P571 deadline=10h weight= 9 value= 37 dest=node 96
+   P620 deadline=10h weight= 1 value= 21 dest=node 242
+   P708 deadline=10h weight= 9 value= 89 dest=node 44
+   P741 deadline=10h weight= 8 value= 21 dest=node 8
+   P765 deadline=10h weight=12 value= 92 dest=node 360
+   P836 deadline=10h weight=10 value= 60 dest=node 68
+   P876 deadline=10h weight= 9 value= 38 dest=node 175
+   P885 deadline=10h weight= 5 value= 65 dest=node 336
+   P888 deadline=10h weight= 6 value= 50 dest=node 373
+   P929 deadline=10h weight= 5 value= 30 dest=node 92
+   P973 deadline=10h weight= 5 value= 71 dest=node 322
+    P44 deadline=11h weight=15 value= 72 dest=node 43
+   P244 deadline=11h weight= 6 value= 58 dest=node 375
+   P248 deadline=11h weight=20 value= 65 dest=node 28
+   P257 deadline=11h weight= 1 value= 36 dest=node 327
+   P353 deadline=11h weight= 6 value= 83 dest=node 251
+   P362 deadline=11h weight=19 value= 49 dest=node 34
+   P369 deadline=11h weight=19 value= 74 dest=node 64
+   P434 deadline=11h weight= 4 value= 15 dest=node 253
+   P462 deadline=11h weight= 7 value= 44 dest=node 147
+   P486 deadline=11h weight= 3 value= 74 dest=node 213
+   P526 deadline=11h weight=17 value= 28 dest=node 95
+   P704 deadline=11h weight= 3 value= 36 dest=node 204
+   P711 deadline=11h weight= 5 value= 77 dest=node 15
+   P804 deadline=11h weight=14 value= 23 dest=node 93
+   P848 deadline=11h weight= 1 value= 49 dest=node 180
+   P899 deadline=11h weight=16 value= 27 dest=node 99
+   P926 deadline=11h weight=17 value= 88 dest=node 194
+    P30 deadline=12h weight=15 value= 89 dest=node 345
+    P33 deadline=12h weight=10 value= 24 dest=node 192
+   P227 deadline=12h weight=10 value= 26 dest=node 374
+   P229 deadline=12h weight=19 value= 14 dest=node 309
+   P301 deadline=12h weight=19 value= 13 dest=node 99
+   P307 deadline=12h weight=20 value= 67 dest=node 243
+   P398 deadline=12h weight=12 value= 53 dest=node 59
+   P475 deadline=12h weight=10 value= 67 dest=node 350
+   P476 deadline=12h weight= 3 value= 33 dest=node 377
+   P485 deadline=12h weight=17 value= 38 dest=node 267
+   P612 deadline=12h weight=18 value= 71 dest=node 190
+   P653 deadline=12h weight=19 value= 44 dest=node 383
+   P680 deadline=12h weight=16 value= 11 dest=node 216
+   P801 deadline=12h weight=19 value= 90 dest=node 286
+   P868 deadline=12h weight=18 value= 21 dest=node 102
+   P917 deadline=12h weight=17 value= 24 dest=node 399
+   P940 deadline=12h weight= 7 value= 16 dest=node 76
+   P960 deadline=12h weight=16 value= 73 dest=node 313
+    P41 deadline=13h weight=16 value= 27 dest=node 197
+   P152 deadline=13h weight=19 value= 73 dest=node 376
+   P182 deadline=13h weight= 8 value= 26 dest=node 206
+   P196 deadline=13h weight= 5 value= 63 dest=node 330
+   P216 deadline=13h weight=11 value= 88 dest=node 67
+   P256 deadline=13h weight=20 value= 71 dest=node 50
+   P274 deadline=13h weight= 6 value= 37 dest=node 65
+   P366 deadline=13h weight=16 value= 55 dest=node 85
+   P382 deadline=13h weight= 4 value= 73 dest=node 312
+   P436 deadline=13h weight=20 value= 35 dest=node 62
+   P498 deadline=13h weight=10 value= 93 dest=node 165
+   P861 deadline=13h weight= 2 value= 46 dest=node 357
+   P883 deadline=13h weight=18 value= 97 dest=node 71
+   P891 deadline=13h weight= 9 value= 29 dest=node 55
+   P932 deadline=13h weight= 4 value= 26 dest=node 2
+   P998 deadline=13h weight= 7 value= 51 dest=node 99
+    P55 deadline=14h weight= 4 value= 40 dest=node 378
+    P58 deadline=14h weight=20 value= 27 dest=node 106
+    P75 deadline=14h weight= 7 value= 64 dest=node 254
+   P157 deadline=14h weight=10 value= 23 dest=node 272
+   P249 deadline=14h weight= 4 value= 52 dest=node 98
+   P297 deadline=14h weight= 7 value= 66 dest=node 209
+   P319 deadline=14h weight=15 value= 42 dest=node 239
+   P488 deadline=14h weight=12 value= 38 dest=node 340
+   P575 deadline=14h weight=16 value= 71 dest=node 303
+   P792 deadline=14h weight= 3 value= 11 dest=node 336
+   P815 deadline=14h weight=10 value= 38 dest=node 162
+   P822 deadline=14h weight=13 value= 82 dest=node 376
+   P855 deadline=14h weight= 1 value= 52 dest=node 379
+   P856 deadline=14h weight=18 value= 37 dest=node 280
+   P965 deadline=14h weight=18 value= 91 dest=node 6
+   P977 deadline=14h weight=18 value= 12 dest=node 296
+    P18 deadline=15h weight=14 value= 69 dest=node 208
+    P45 deadline=15h weight=19 value= 13 dest=node 150
+    P46 deadline=15h weight= 2 value= 45 dest=node 276
+    P86 deadline=15h weight=10 value= 99 dest=node 220
+   P146 deadline=15h weight= 2 value= 32 dest=node 265
+   P154 deadline=15h weight=14 value= 13 dest=node 278
+   P204 deadline=15h weight=12 value= 84 dest=node 82
+   P225 deadline=15h weight=20 value= 55 dest=node 341
+   P230 deadline=15h weight=11 value= 88 dest=node 328
+   P267 deadline=15h weight=14 value= 85 dest=node 284
+   P312 deadline=15h weight= 8 value= 92 dest=node 347
+   P316 deadline=15h weight=20 value= 11 dest=node 130
+   P367 deadline=15h weight=13 value= 12 dest=node 115
+   P508 deadline=15h weight= 3 value= 83 dest=node 133
+   P518 deadline=15h weight= 6 value= 78 dest=node 70
+   P558 deadline=15h weight= 8 value= 72 dest=node 33
+   P559 deadline=15h weight= 9 value= 57 dest=node 22
+   P573 deadline=15h weight= 4 value= 94 dest=node 213
+   P584 deadline=15h weight=16 value= 31 dest=node 211
+   P709 deadline=15h weight=13 value= 49 dest=node 127
+   P729 deadline=15h weight=13 value= 58 dest=node 135
+   P791 deadline=15h weight= 2 value= 56 dest=node 311
+   P828 deadline=15h weight=14 value= 25 dest=node 383
+   P835 deadline=15h weight=17 value= 21 dest=node 222
+   P850 deadline=15h weight=15 value= 15 dest=node 103
+   P894 deadline=15h weight=19 value= 88 dest=node 306
+   P125 deadline=16h weight= 8 value= 17 dest=node 45
+   P208 deadline=16h weight= 6 value= 32 dest=node 304
+   P232 deadline=16h weight=11 value= 19 dest=node 178
+   P302 deadline=16h weight= 7 value= 17 dest=node 17
+   P467 deadline=16h weight=18 value= 59 dest=node 262
+   P492 deadline=16h weight=12 value= 67 dest=node 329
+   P493 deadline=16h weight=20 value= 89 dest=node 21
+   P539 deadline=16h weight= 1 value= 50 dest=node 114
+   P656 deadline=16h weight= 8 value= 35 dest=node 317
+   P671 deadline=16h weight=18 value= 43 dest=node 138
+   P749 deadline=16h weight=13 value= 66 dest=node 378
+   P757 deadline=16h weight= 7 value= 24 dest=node 325
+   P762 deadline=16h weight=12 value= 21 dest=node 81
+   P809 deadline=16h weight=11 value= 87 dest=node 289
+   P820 deadline=16h weight=12 value= 84 dest=node 120
+   P843 deadline=16h weight=17 value= 41 dest=node 37
+   P852 deadline=16h weight= 4 value= 16 dest=node 318
+   P870 deadline=16h weight= 1 value= 15 dest=node 272
+   P879 deadline=16h weight= 8 value= 63 dest=node 294
+   P904 deadline=16h weight=11 value= 68 dest=node 219
+   P909 deadline=16h weight=15 value= 15 dest=node 266
+   P935 deadline=16h weight=20 value= 73 dest=node 112
+   P938 deadline=16h weight=20 value= 10 dest=node 281
+     P3 deadline=17h weight= 1 value= 22 dest=node 114
+    P26 deadline=17h weight=15 value= 24 dest=node 344
+   P137 deadline=17h weight=12 value= 30 dest=node 396
+   P165 deadline=17h weight= 8 value= 47 dest=node 162
+   P390 deadline=17h weight= 3 value= 22 dest=node 330
+   P507 deadline=17h weight= 2 value= 32 dest=node 286
+   P527 deadline=17h weight= 8 value= 88 dest=node 100
+   P566 deadline=17h weight= 3 value= 76 dest=node 193
+   P580 deadline=17h weight= 2 value= 31 dest=node 93
+   P601 deadline=17h weight=14 value= 27 dest=node 245
+   P603 deadline=17h weight=18 value= 62 dest=node 97
+   P655 deadline=17h weight= 8 value= 40 dest=node 106
+   P670 deadline=17h weight=12 value= 88 dest=node 96
+   P685 deadline=17h weight= 2 value= 37 dest=node 244
+   P703 deadline=17h weight= 8 value= 94 dest=node 381
+   P747 deadline=17h weight= 6 value= 34 dest=node 196
+   P776 deadline=17h weight=15 value= 47 dest=node 278
+   P860 deadline=17h weight=17 value= 15 dest=node 88
+    P23 deadline=18h weight= 7 value= 36 dest=node 386
+    P49 deadline=18h weight=19 value= 24 dest=node 397
+    P83 deadline=18h weight=10 value= 30 dest=node 48
+   P103 deadline=18h weight= 5 value= 41 dest=node 331
+   P144 deadline=18h weight=14 value= 50 dest=node 40
+   P167 deadline=18h weight=11 value= 67 dest=node 120
+   P191 deadline=18h weight= 6 value= 45 dest=node 229
+   P195 deadline=18h weight= 2 value= 21 dest=node 197
+   P293 deadline=18h weight=10 value= 49 dest=node 252
+   P295 deadline=18h weight=15 value= 51 dest=node 374
+   P352 deadline=18h weight= 1 value= 67 dest=node 108
+   P632 deadline=18h weight= 6 value= 21 dest=node 205
+   P661 deadline=18h weight=16 value= 83 dest=node 252
+   P662 deadline=18h weight= 6 value= 75 dest=node 204
+   P745 deadline=18h weight= 5 value= 17 dest=node 398
+   P816 deadline=18h weight= 1 value= 98 dest=node 284
+   P874 deadline=18h weight= 8 value= 74 dest=node 32
+   P893 deadline=18h weight=20 value= 88 dest=node 311
+   P951 deadline=18h weight= 4 value= 98 dest=node 169
+     P8 deadline=19h weight=16 value= 23 dest=node 213
+    P61 deadline=19h weight=11 value=100 dest=node 149
+    P76 deadline=19h weight= 9 value= 51 dest=node 173
+   P105 deadline=19h weight=20 value= 87 dest=node 399
+   P255 deadline=19h weight=14 value= 21 dest=node 339
+   P323 deadline=19h weight=20 value= 87 dest=node 153
+   P342 deadline=19h weight= 9 value= 84 dest=node 238
+   P363 deadline=19h weight= 2 value= 48 dest=node 234
+   P381 deadline=19h weight=20 value= 25 dest=node 59
+   P391 deadline=19h weight= 8 value= 68 dest=node 136
+   P519 deadline=19h weight=13 value= 79 dest=node 325
+   P530 deadline=19h weight=18 value= 19 dest=node 344
+   P582 deadline=19h weight= 1 value= 94 dest=node 44
+   P602 deadline=19h weight= 8 value= 20 dest=node 307
+   P691 deadline=19h weight=18 value= 32 dest=node 182
+   P739 deadline=19h weight= 6 value= 23 dest=node 138
+   P771 deadline=19h weight=15 value= 81 dest=node 278
+   P865 deadline=19h weight= 4 value= 12 dest=node 333
+   P912 deadline=19h weight= 2 value= 34 dest=node 226
+   P913 deadline=19h weight=13 value= 48 dest=node 237
+   P914 deadline=19h weight= 6 value= 64 dest=node 314
+   P945 deadline=19h weight= 6 value= 96 dest=node 313
+   P961 deadline=19h weight= 8 value=100 dest=node 100
+   P966 deadline=19h weight= 7 value= 98 dest=node 131
+   P106 deadline=20h weight= 1 value= 94 dest=node 106
+   P127 deadline=20h weight=20 value= 17 dest=node 342
+   P172 deadline=20h weight= 7 value= 67 dest=node 238
+   P270 deadline=20h weight= 8 value= 70 dest=node 41
+   P346 deadline=20h weight=13 value= 77 dest=node 212
+   P426 deadline=20h weight=20 value= 91 dest=node 261
+   P515 deadline=20h weight=10 value= 97 dest=node 311
+   P524 deadline=20h weight=18 value= 20 dest=node 108
+   P724 deadline=20h weight=16 value= 71 dest=node 5
+   P814 deadline=20h weight=17 value= 27 dest=node 4
+   P830 deadline=20h weight=13 value= 16 dest=node 269
+   P880 deadline=20h weight= 5 value= 64 dest=node 310
+   P930 deadline=20h weight= 2 value= 63 dest=node 159
+   P967 deadline=20h weight= 3 value= 49 dest=node 260
+   P997 deadline=20h weight= 1 value= 83 dest=node 328
+    P25 deadline=21h weight= 6 value= 56 dest=node 101
+    P39 deadline=21h weight= 5 value= 33 dest=node 231
+   P143 deadline=21h weight=14 value= 38 dest=node 128
+   P148 deadline=21h weight=10 value= 49 dest=node 45
+   P175 deadline=21h weight= 2 value= 37 dest=node 76
+   P200 deadline=21h weight=19 value= 74 dest=node 199
+   P217 deadline=21h weight=11 value= 32 dest=node 31
+   P277 deadline=21h weight=20 value= 43 dest=node 373
+   P279 deadline=21h weight=13 value= 80 dest=node 142
+   P325 deadline=21h weight= 9 value= 91 dest=node 142
+   P408 deadline=21h weight= 9 value= 93 dest=node 7
+   P417 deadline=21h weight= 3 value= 72 dest=node 124
+   P422 deadline=21h weight=16 value= 67 dest=node 61
+   P445 deadline=21h weight=20 value= 87 dest=node 259
+   P510 deadline=21h weight=13 value= 65 dest=node 9
+   P667 deadline=21h weight=17 value= 68 dest=node 353
+   P737 deadline=21h weight=16 value= 34 dest=node 10
+   P773 deadline=21h weight=18 value= 54 dest=node 375
+   P780 deadline=21h weight=20 value= 40 dest=node 370
+   P844 deadline=21h weight= 9 value= 65 dest=node 351
+   P886 deadline=21h weight=19 value= 30 dest=node 35
+   P919 deadline=21h weight=13 value= 62 dest=node 231
+   P948 deadline=21h weight= 3 value= 48 dest=node 189
+   P976 deadline=21h weight=19 value= 96 dest=node 285
+   P982 deadline=21h weight=10 value=100 dest=node 364
+   P990 deadline=21h weight=17 value= 49 dest=node 74
+    P10 deadline=22h weight=12 value= 49 dest=node 234
+    P17 deadline=22h weight=18 value= 30 dest=node 287
+   P339 deadline=22h weight= 6 value= 97 dest=node 336
+   P341 deadline=22h weight=10 value= 63 dest=node 191
+   P350 deadline=22h weight= 3 value= 72 dest=node 324
+   P410 deadline=22h weight= 8 value= 95 dest=node 266
+   P429 deadline=22h weight= 8 value= 68 dest=node 287
+   P432 deadline=22h weight= 8 value= 10 dest=node 182
+   P532 deadline=22h weight=19 value= 72 dest=node 183
+   P672 deadline=22h weight=16 value= 88 dest=node 188
+   P695 deadline=22h weight= 6 value= 91 dest=node 216
+   P697 deadline=22h weight= 3 value= 30 dest=node 117
+   P742 deadline=22h weight=16 value= 37 dest=node 216
+   P943 deadline=22h weight=20 value= 48 dest=node 45
+   P964 deadline=22h weight=14 value= 15 dest=node 180
+   P971 deadline=22h weight= 7 value= 52 dest=node 345
+   P974 deadline=22h weight=15 value= 78 dest=node 237
+   P979 deadline=22h weight= 9 value= 13 dest=node 193
+     P7 deadline=23h weight=17 value= 29 dest=node 13
+    P29 deadline=23h weight=19 value= 24 dest=node 181
+    P40 deadline=23h weight=20 value= 16 dest=node 5
+    P56 deadline=23h weight=19 value= 98 dest=node 364
+    P59 deadline=23h weight= 2 value= 82 dest=node 273
+   P176 deadline=23h weight= 3 value= 41 dest=node 203
+   P190 deadline=23h weight=14 value= 32 dest=node 110
+   P209 deadline=23h weight=11 value= 99 dest=node 303
+   P266 deadline=23h weight= 3 value= 95 dest=node 278
+   P285 deadline=23h weight=10 value= 78 dest=node 211
+   P308 deadline=23h weight=19 value= 80 dest=node 177
+   P335 deadline=23h weight=16 value= 95 dest=node 260
+   P340 deadline=23h weight= 3 value= 38 dest=node 115
+   P360 deadline=23h weight= 8 value= 98 dest=node 160
+   P396 deadline=23h weight= 6 value= 52 dest=node 225
+   P413 deadline=23h weight= 8 value= 71 dest=node 340
+   P453 deadline=23h weight=10 value= 97 dest=node 345
+   P557 deadline=23h weight= 5 value= 71 dest=node 21
+   P614 deadline=23h weight=10 value= 83 dest=node 397
+   P636 deadline=23h weight=18 value= 84 dest=node 178
+   P648 deadline=23h weight=11 value= 62 dest=node 265
+   P652 deadline=23h weight=16 value= 50 dest=node 112
+   P665 deadline=23h weight= 2 value= 74 dest=node 202
+   P688 deadline=23h weight=18 value= 42 dest=node 11
+   P689 deadline=23h weight=14 value= 25 dest=node 348
+   P712 deadline=23h weight= 2 value= 94 dest=node 167
+   P718 deadline=23h weight=18 value= 49 dest=node 247
+   P722 deadline=23h weight=17 value= 27 dest=node 147
+   P827 deadline=23h weight= 2 value= 52 dest=node 223
+   P847 deadline=23h weight= 7 value= 51 dest=node 305
+   P872 deadline=23h weight= 6 value= 12 dest=node 351
+   P941 deadline=23h weight= 2 value= 93 dest=node 19
+    P71 deadline=24h weight= 9 value= 98 dest=node 233
+    P94 deadline=24h weight= 4 value= 50 dest=node 154
+   P131 deadline=24h weight= 9 value= 31 dest=node 65
+   P141 deadline=24h weight= 2 value= 70 dest=node 197
+   P254 deadline=24h weight= 5 value= 16 dest=node 2
+   P261 deadline=24h weight=13 value= 33 dest=node 196
+   P298 deadline=24h weight=16 value= 76 dest=node 29
+   P303 deadline=24h weight=15 value= 16 dest=node 361
+   P304 deadline=24h weight= 7 value= 45 dest=node 238
+   P306 deadline=24h weight= 1 value= 40 dest=node 251
+   P322 deadline=24h weight=17 value= 94 dest=node 288
+   P393 deadline=24h weight= 2 value= 47 dest=node 347
+   P428 deadline=24h weight=15 value= 53 dest=node 28
+   P489 deadline=24h weight=11 value= 52 dest=node 151
+   P496 deadline=24h weight= 1 value= 76 dest=node 264
+   P540 deadline=24h weight=14 value= 45 dest=node 69
+   P560 deadline=24h weight= 7 value= 76 dest=node 199
+   P607 deadline=24h weight=11 value= 62 dest=node 55
+   P622 deadline=24h weight= 9 value= 38 dest=node 41
+   P674 deadline=24h weight=14 value= 99 dest=node 187
+   P687 deadline=24h weight= 9 value= 56 dest=node 287
+   P700 deadline=24h weight= 9 value= 66 dest=node 383
+   P726 deadline=24h weight= 1 value= 80 dest=node 97
+   P743 deadline=24h weight=10 value= 73 dest=node 238
+   P779 deadline=24h weight= 1 value= 89 dest=node 398
+   P811 deadline=24h weight=18 value= 42 dest=node 232
+   P846 deadline=24h weight=14 value= 64 dest=node 179
+   P924 deadline=24h weight=15 value= 91 dest=node 44
+   P947 deadline=24h weight=15 value= 84 dest=node 19
+   P984 deadline=24h weight=16 value= 40 dest=node 232
+   P986 deadline=24h weight= 6 value= 24 dest=node 20
+    P34 deadline=25h weight= 5 value= 75 dest=node 215
+   P109 deadline=25h weight= 8 value= 73 dest=node 58
+   P112 deadline=25h weight=11 value= 26 dest=node 292
+   P207 deadline=25h weight= 8 value= 83 dest=node 182
+   P226 deadline=25h weight=19 value= 32 dest=node 158
+   P237 deadline=25h weight= 1 value= 16 dest=node 225
+   P278 deadline=25h weight= 3 value= 21 dest=node 285
+   P318 deadline=25h weight= 9 value= 64 dest=node 179
+   P361 deadline=25h weight= 5 value= 23 dest=node 258
+   P374 deadline=25h weight=14 value= 66 dest=node 64
+   P477 deadline=25h weight=17 value= 25 dest=node 21
+   P564 deadline=25h weight=19 value= 32 dest=node 335
+   P589 deadline=25h weight= 3 value= 39 dest=node 198
+   P599 deadline=25h weight= 8 value= 71 dest=node 180
+   P619 deadline=25h weight= 2 value= 30 dest=node 326
+   P693 deadline=25h weight=15 value= 20 dest=node 315
+   P769 deadline=25h weight= 1 value= 98 dest=node 184
+   P799 deadline=25h weight= 8 value= 78 dest=node 98
+   P810 deadline=25h weight=18 value= 37 dest=node 393
+   P826 deadline=25h weight= 2 value= 83 dest=node 41
+   P863 deadline=25h weight= 1 value= 18 dest=node 339
+   P866 deadline=25h weight=13 value= 39 dest=node 261
+   P898 deadline=25h weight=12 value= 33 dest=node 252
+   P925 deadline=25h weight=17 value=100 dest=node 373
+    P85 deadline=26h weight= 6 value= 16 dest=node 321
+   P288 deadline=26h weight= 6 value= 45 dest=node 74
+   P290 deadline=26h weight=13 value= 14 dest=node 170
+   P331 deadline=26h weight= 9 value= 63 dest=node 199
+   P447 deadline=26h weight= 8 value= 45 dest=node 176
+   P487 deadline=26h weight=18 value= 78 dest=node 48
+   P523 deadline=26h weight=19 value= 86 dest=node 276
+   P550 deadline=26h weight= 5 value= 56 dest=node 115
+   P567 deadline=26h weight= 8 value= 76 dest=node 181
+   P633 deadline=26h weight=12 value= 95 dest=node 208
+   P696 deadline=26h weight=20 value= 83 dest=node 37
+   P838 deadline=26h weight= 2 value= 80 dest=node 135
+   P841 deadline=26h weight= 7 value= 72 dest=node 334
+   P906 deadline=26h weight=13 value= 50 dest=node 314
+   P969 deadline=26h weight=11 value= 53 dest=node 371
+    P63 deadline=27h weight= 4 value= 27 dest=node 31
+    P68 deadline=27h weight= 9 value= 90 dest=node 193
+   P160 deadline=27h weight= 8 value= 76 dest=node 359
+   P238 deadline=27h weight=14 value= 31 dest=node 253
+   P377 deadline=27h weight= 1 value= 48 dest=node 339
+   P384 deadline=27h weight=12 value=100 dest=node 152
+   P438 deadline=27h weight=11 value= 23 dest=node 24
+   P469 deadline=27h weight=13 value= 59 dest=node 351
+   P525 deadline=27h weight=12 value= 37 dest=node 331
+   P576 deadline=27h weight= 6 value= 92 dest=node 12
+   P597 deadline=27h weight=14 value= 76 dest=node 190
+   P611 deadline=27h weight=13 value= 36 dest=node 283
+   P639 deadline=27h weight= 9 value= 32 dest=node 260
+   P720 deadline=27h weight=10 value= 56 dest=node 134
+   P733 deadline=27h weight=18 value= 44 dest=node 97
+   P889 deadline=27h weight= 1 value= 50 dest=node 211
+   P900 deadline=27h weight= 8 value= 14 dest=node 392
+   P901 deadline=27h weight= 1 value= 44 dest=node 114
+   P944 deadline=27h weight= 2 value= 23 dest=node 92
+   P983 deadline=27h weight= 2 value= 44 dest=node 45
+     P2 deadline=28h weight=13 value= 52 dest=node 55
+    P57 deadline=28h weight=20 value= 90 dest=node 85
+    P91 deadline=28h weight=11 value= 25 dest=node 356
+   P102 deadline=28h weight=13 value= 54 dest=node 162
+   P118 deadline=28h weight=17 value= 63 dest=node 360
+   P188 deadline=28h weight= 6 value= 83 dest=node 371
+   P355 deadline=28h weight=14 value= 61 dest=node 245
+   P459 deadline=28h weight=18 value= 46 dest=node 7
+   P502 deadline=28h weight= 7 value= 97 dest=node 54
+   P538 deadline=28h weight=12 value= 50 dest=node 87
+   P673 deadline=28h weight= 6 value= 73 dest=node 108
+   P678 deadline=28h weight= 8 value= 81 dest=node 196
+   P727 deadline=28h weight=14 value= 81 dest=node 203
+   P949 deadline=28h weight=13 value= 18 dest=node 282
+     P5 deadline=29h weight=19 value= 38 dest=node 192
+    P12 deadline=29h weight=16 value= 22 dest=node 370
+    P21 deadline=29h weight=20 value= 35 dest=node 304
+   P241 deadline=29h weight= 8 value= 30 dest=node 38
+   P262 deadline=29h weight=12 value= 33 dest=node 23
+   P273 deadline=29h weight= 5 value= 25 dest=node 89
+   P421 deadline=29h weight=15 value= 83 dest=node 46
+   P439 deadline=29h weight=19 value= 25 dest=node 235
+   P509 deadline=29h weight=14 value= 59 dest=node 323
+   P516 deadline=29h weight= 3 value= 46 dest=node 196
+   P555 deadline=29h weight=17 value= 27 dest=node 82
+   P675 deadline=29h weight=13 value= 45 dest=node 93
+   P701 deadline=29h weight=19 value= 76 dest=node 212
+   P854 deadline=29h weight= 4 value= 49 dest=node 242
+   P916 deadline=29h weight=15 value= 92 dest=node 47
+   P987 deadline=29h weight= 7 value= 21 dest=node 260
+    P47 deadline=30h weight=10 value= 31 dest=node 290
+   P126 deadline=30h weight=14 value= 24 dest=node 314
+   P151 deadline=30h weight=20 value= 41 dest=node 189
+   P170 deadline=30h weight= 6 value= 67 dest=node 161
+   P180 deadline=30h weight= 8 value= 22 dest=node 53
+   P187 deadline=30h weight= 4 value= 15 dest=node 26
+   P263 deadline=30h weight= 9 value= 66 dest=node 135
+   P399 deadline=30h weight=13 value= 61 dest=node 140
+   P437 deadline=30h weight=13 value= 37 dest=node 98
+   P480 deadline=30h weight= 1 value= 52 dest=node 364
+   P505 deadline=30h weight= 5 value= 13 dest=node 368
+   P529 deadline=30h weight= 2 value= 80 dest=node 331
+   P541 deadline=30h weight=11 value= 71 dest=node 229
+   P644 deadline=30h weight= 8 value= 53 dest=node 349
+   P735 deadline=30h weight= 4 value= 91 dest=node 317
+   P750 deadline=30h weight= 2 value= 35 dest=node 377
+   P793 deadline=30h weight=16 value= 20 dest=node 328
+   P920 deadline=30h weight= 1 value= 32 dest=node 303
+   P992 deadline=30h weight= 7 value= 14 dest=node 199
+    P11 deadline=31h weight= 7 value= 76 dest=node 179
+   P203 deadline=31h weight= 9 value= 17 dest=node 272
+   P215 deadline=31h weight= 1 value= 77 dest=node 1
+   P246 deadline=31h weight=20 value= 88 dest=node 361
+   P258 deadline=31h weight=10 value= 20 dest=node 60
+   P259 deadline=31h weight=10 value= 60 dest=node 251
+   P269 deadline=31h weight=18 value= 97 dest=node 294
+   P287 deadline=31h weight=19 value= 87 dest=node 20
+   P375 deadline=31h weight=18 value= 42 dest=node 360
+   P386 deadline=31h weight= 7 value= 98 dest=node 170
+   P400 deadline=31h weight=13 value= 98 dest=node 216
+   P430 deadline=31h weight=20 value= 86 dest=node 367
+   P457 deadline=31h weight=12 value= 81 dest=node 299
+   P568 deadline=31h weight=12 value= 72 dest=node 310
+   P574 deadline=31h weight=11 value= 24 dest=node 346
+   P613 deadline=31h weight=18 value= 81 dest=node 130
+   P664 deadline=31h weight=17 value= 64 dest=node 277
+   P823 deadline=31h weight= 3 value= 51 dest=node 89
+   P837 deadline=31h weight=11 value= 20 dest=node 293
+   P840 deadline=31h weight= 5 value= 27 dest=node 287
+   P936 deadline=31h weight=19 value= 94 dest=node 233
+   P950 deadline=31h weight= 3 value= 47 dest=node 69
+   P989 deadline=31h weight= 7 value= 53 dest=node 376
+    P36 deadline=32h weight=14 value= 33 dest=node 326
+    P38 deadline=32h weight=18 value= 31 dest=node 148
+    P43 deadline=32h weight=14 value= 97 dest=node 213
+   P158 deadline=32h weight= 8 value= 63 dest=node 31
+   P199 deadline=32h weight=16 value= 79 dest=node 177
+   P223 deadline=32h weight=14 value= 91 dest=node 333
+   P231 deadline=32h weight=19 value= 23 dest=node 73
+   P330 deadline=32h weight= 1 value= 93 dest=node 152
+   P406 deadline=32h weight= 5 value= 71 dest=node 58
+   P416 deadline=32h weight=17 value= 70 dest=node 85
+   P497 deadline=32h weight=17 value= 67 dest=node 23
+   P535 deadline=32h weight= 7 value= 50 dest=node 231
+   P542 deadline=32h weight=12 value= 49 dest=node 283
+   P626 deadline=32h weight= 6 value= 91 dest=node 225
+   P682 deadline=32h weight=18 value= 50 dest=node 154
+   P789 deadline=32h weight=13 value= 94 dest=node 270
+   P867 deadline=32h weight= 4 value= 50 dest=node 306
+   P871 deadline=32h weight=10 value= 52 dest=node 202
+   P903 deadline=32h weight=15 value= 88 dest=node 353
+    P48 deadline=33h weight=16 value= 80 dest=node 58
+    P62 deadline=33h weight=19 value= 44 dest=node 348
+    P70 deadline=33h weight= 3 value= 61 dest=node 384
+   P107 deadline=33h weight=17 value= 87 dest=node 97
+   P135 deadline=33h weight=16 value= 68 dest=node 185
+   P162 deadline=33h weight=19 value= 22 dest=node 69
+   P271 deadline=33h weight=13 value= 14 dest=node 293
+   P345 deadline=33h weight=16 value= 34 dest=node 62
+   P380 deadline=33h weight=14 value= 23 dest=node 369
+   P514 deadline=33h weight= 3 value= 55 dest=node 55
+   P617 deadline=33h weight= 4 value= 37 dest=node 206
+   P692 deadline=33h weight=11 value= 96 dest=node 250
+   P805 deadline=33h weight=18 value= 61 dest=node 173
+   P832 deadline=33h weight= 5 value= 51 dest=node 358
+   P839 deadline=33h weight= 3 value= 61 dest=node 223
+   P988 deadline=33h weight= 1 value= 71 dest=node 79
+    P16 deadline=34h weight= 6 value= 41 dest=node 90
+    P89 deadline=34h weight=19 value= 38 dest=node 349
+    P96 deadline=34h weight= 5 value= 18 dest=node 289
+   P130 deadline=34h weight=16 value= 54 dest=node 265
+   P133 deadline=34h weight=14 value= 44 dest=node 33
+   P219 deadline=34h weight= 5 value= 24 dest=node 187
+   P268 deadline=34h weight= 2 value= 59 dest=node 215
+   P281 deadline=34h weight=20 value= 85 dest=node 215
+   P320 deadline=34h weight=10 value= 96 dest=node 320
+   P364 deadline=34h weight=17 value= 86 dest=node 173
+   P378 deadline=34h weight= 4 value= 94 dest=node 139
+   P383 deadline=34h weight= 7 value= 43 dest=node 104
+   P433 deadline=34h weight=10 value= 80 dest=node 192
+   P490 deadline=34h weight= 7 value= 89 dest=node 244
+   P598 deadline=34h weight= 2 value= 99 dest=node 220
+   P634 deadline=34h weight=19 value= 35 dest=node 8
+   P717 deadline=34h weight=19 value= 65 dest=node 328
+   P754 deadline=34h weight= 2 value= 80 dest=node 63
+   P775 deadline=34h weight= 6 value= 18 dest=node 80
+   P785 deadline=34h weight= 4 value= 22 dest=node 338
+   P796 deadline=34h weight=20 value= 44 dest=node 21
+   P911 deadline=34h weight=18 value= 59 dest=node 392
+   P915 deadline=34h weight= 2 value= 98 dest=node 73
+   P952 deadline=34h weight=17 value= 62 dest=node 108
+   P954 deadline=34h weight=19 value= 90 dest=node 45
+   P975 deadline=34h weight=14 value= 17 dest=node 154
+   P985 deadline=34h weight=10 value= 37 dest=node 155
+    P50 deadline=35h weight=18 value= 56 dest=node 388
+    P51 deadline=35h weight= 2 value= 66 dest=node 112
+    P60 deadline=35h weight= 9 value= 86 dest=node 87
+    P74 deadline=35h weight=12 value= 18 dest=node 204
+   P113 deadline=35h weight=14 value= 56 dest=node 350
+   P122 deadline=35h weight= 7 value= 29 dest=node 168
+   P171 deadline=35h weight=14 value= 25 dest=node 184
+   P212 deadline=35h weight= 7 value= 73 dest=node 159
+   P239 deadline=35h weight=13 value= 54 dest=node 193
+   P334 deadline=35h weight= 8 value= 97 dest=node 327
+   P464 deadline=35h weight=10 value= 36 dest=node 17
+   P473 deadline=35h weight=12 value= 85 dest=node 379
+   P549 deadline=35h weight= 9 value= 79 dest=node 242
+   P609 deadline=35h weight= 9 value= 43 dest=node 217
+   P659 deadline=35h weight=20 value= 10 dest=node 22
+   P713 deadline=35h weight=16 value= 69 dest=node 140
+   P738 deadline=35h weight= 5 value= 16 dest=node 12
+   P746 deadline=35h weight=13 value= 19 dest=node 241
+   P781 deadline=35h weight= 3 value= 94 dest=node 199
+   P831 deadline=35h weight= 2 value= 50 dest=node 290
+   P881 deadline=35h weight=11 value= 67 dest=node 68
+   P907 deadline=35h weight=19 value= 86 dest=node 269
+   P918 deadline=35h weight=19 value= 99 dest=node 70
+   P934 deadline=35h weight=16 value= 73 dest=node 3
+   P999 deadline=35h weight=10 value= 45 dest=node 164
+     P4 deadline=36h weight=17 value= 76 dest=node 298
+   P104 deadline=36h weight= 3 value= 41 dest=node 308
+   P194 deadline=36h weight=16 value= 62 dest=node 246
+   P250 deadline=36h weight=14 value= 99 dest=node 370
+   P253 deadline=36h weight=13 value= 83 dest=node 252
+   P385 deadline=36h weight= 6 value= 15 dest=node 255
+   P414 deadline=36h weight=13 value= 29 dest=node 314
+   P478 deadline=36h weight=14 value= 45 dest=node 136
+   P521 deadline=36h weight=12 value= 11 dest=node 285
+   P635 deadline=36h weight= 3 value= 21 dest=node 146
+   P651 deadline=36h weight=11 value= 19 dest=node 92
+   P767 deadline=36h weight= 8 value= 50 dest=node 331
+   P794 deadline=36h weight= 2 value= 56 dest=node 381
+   P807 deadline=36h weight=12 value= 50 dest=node 167
+   P842 deadline=36h weight=19 value= 35 dest=node 316
+   P857 deadline=36h weight=17 value= 43 dest=node 248
+   P869 deadline=36h weight=17 value= 68 dest=node 365
+   P946 deadline=36h weight=20 value= 83 dest=node 91
+    P35 deadline=37h weight=20 value= 27 dest=node 197
+    P67 deadline=37h weight=16 value= 28 dest=node 324
+   P136 deadline=37h weight= 2 value= 73 dest=node 86
+   P150 deadline=37h weight= 7 value= 47 dest=node 156
+   P228 deadline=37h weight= 1 value= 99 dest=node 201
+   P240 deadline=37h weight= 4 value= 71 dest=node 334
+   P264 deadline=37h weight= 8 value= 44 dest=node 32
+   P284 deadline=37h weight= 4 value= 23 dest=node 52
+   P311 deadline=37h weight= 2 value= 30 dest=node 110
+   P348 deadline=37h weight=11 value= 62 dest=node 235
+   P388 deadline=37h weight= 3 value= 24 dest=node 343
+   P403 deadline=37h weight=19 value= 71 dest=node 348
+   P483 deadline=37h weight=10 value= 72 dest=node 282
+   P537 deadline=37h weight=19 value= 29 dest=node 291
+   P556 deadline=37h weight= 6 value= 82 dest=node 338
+   P579 deadline=37h weight=17 value= 15 dest=node 76
+   P600 deadline=37h weight=19 value= 99 dest=node 51
+   P638 deadline=37h weight=15 value= 61 dest=node 3
+   P642 deadline=37h weight= 9 value= 78 dest=node 129
+   P643 deadline=37h weight=15 value= 58 dest=node 248
+   P676 deadline=37h weight=19 value= 26 dest=node 352
+   P683 deadline=37h weight= 9 value= 81 dest=node 25
+   P690 deadline=37h weight=20 value= 35 dest=node 295
+   P772 deadline=37h weight=16 value= 34 dest=node 96
+   P817 deadline=37h weight=17 value= 81 dest=node 293
+   P928 deadline=37h weight= 6 value= 52 dest=node 338
+   P957 deadline=37h weight= 9 value= 77 dest=node 320
+   P980 deadline=37h weight=18 value= 31 dest=node 311
+    P31 deadline=38h weight=10 value= 88 dest=node 44
+    P72 deadline=38h weight=16 value= 51 dest=node 2
+   P101 deadline=38h weight= 5 value= 25 dest=node 374
+   P163 deadline=38h weight=13 value= 19 dest=node 291
+   P184 deadline=38h weight= 3 value= 84 dest=node 133
+   P218 deadline=38h weight= 1 value= 28 dest=node 361
+   P283 deadline=38h weight=19 value= 85 dest=node 389
+   P442 deadline=38h weight=18 value= 65 dest=node 248
+   P479 deadline=38h weight= 5 value= 30 dest=node 131
+   P547 deadline=38h weight= 1 value= 84 dest=node 208
+   P563 deadline=38h weight= 9 value= 43 dest=node 279
+   P565 deadline=38h weight=13 value= 56 dest=node 335
+   P585 deadline=38h weight=20 value= 28 dest=node 393
+   P715 deadline=38h weight=18 value= 32 dest=node 306
+   P790 deadline=38h weight=20 value= 99 dest=node 132
+   P859 deadline=38h weight= 1 value= 58 dest=node 340
+   P214 deadline=39h weight= 2 value= 39 dest=node 113
+   P328 deadline=39h weight= 8 value= 17 dest=node 207
+   P446 deadline=39h weight=13 value= 63 dest=node 355
+   P572 deadline=39h weight= 6 value= 56 dest=node 368
+   P581 deadline=39h weight=17 value= 61 dest=node 289
+   P583 deadline=39h weight= 7 value= 67 dest=node 242
+   P588 deadline=39h weight=11 value= 68 dest=node 303
+   P593 deadline=39h weight=16 value= 88 dest=node 20
+   P637 deadline=39h weight= 9 value= 38 dest=node 100
+   P725 deadline=39h weight=14 value= 47 dest=node 119
+   P761 deadline=39h weight=16 value= 98 dest=node 80
+   P774 deadline=39h weight=15 value= 45 dest=node 284
+   P806 deadline=39h weight= 6 value= 78 dest=node 227
+   P813 deadline=39h weight= 2 value= 46 dest=node 9
+   P834 deadline=39h weight=13 value= 67 dest=node 295
+   P897 deadline=39h weight= 5 value= 74 dest=node 241
+   P905 deadline=39h weight=13 value= 15 dest=node 377
+   P955 deadline=39h weight=16 value= 98 dest=node 362
+   P956 deadline=39h weight=10 value= 64 dest=node 163
+   P981 deadline=39h weight=13 value= 33 dest=node 60
+   P994 deadline=39h weight= 2 value= 97 dest=node 45
+    P28 deadline=40h weight=20 value= 59 dest=node 201
+    P99 deadline=40h weight= 5 value= 62 dest=node 352
+   P192 deadline=40h weight= 5 value= 14 dest=node 318
+   P344 deadline=40h weight=19 value= 84 dest=node 37
+   P354 deadline=40h weight= 3 value= 26 dest=node 223
+   P371 deadline=40h weight= 9 value= 78 dest=node 25
+   P404 deadline=40h weight=15 value= 33 dest=node 195
+   P452 deadline=40h weight= 7 value= 36 dest=node 366
+   P471 deadline=40h weight= 9 value= 35 dest=node 227
+   P534 deadline=40h weight= 4 value= 46 dest=node 36
+   P610 deadline=40h weight=19 value= 56 dest=node 142
+   P618 deadline=40h weight=11 value= 80 dest=node 357
+   P660 deadline=40h weight=16 value= 57 dest=node 162
+   P783 deadline=40h weight=18 value= 29 dest=node 145
+   P849 deadline=40h weight=20 value= 66 dest=node 75
+   P958 deadline=40h weight=12 value= 26 dest=node 289
+   P963 deadline=40h weight= 4 value= 36 dest=node 213
+    P19 deadline=41h weight= 6 value= 33 dest=node 337
+    P27 deadline=41h weight=16 value= 77 dest=node 161
+    P69 deadline=41h weight=15 value= 19 dest=node 394
+    P73 deadline=41h weight= 3 value= 68 dest=node 341
+   P110 deadline=41h weight= 8 value= 73 dest=node 305
+   P117 deadline=41h weight=17 value= 46 dest=node 365
+   P119 deadline=41h weight=13 value= 20 dest=node 275
+   P123 deadline=41h weight=13 value= 85 dest=node 391
+   P134 deadline=41h weight= 9 value= 83 dest=node 40
+   P183 deadline=41h weight=12 value= 97 dest=node 331
+   P197 deadline=41h weight=17 value= 41 dest=node 279
+   P233 deadline=41h weight=11 value= 31 dest=node 46
+   P276 deadline=41h weight=14 value= 35 dest=node 76
+   P305 deadline=41h weight=17 value= 60 dest=node 64
+   P351 deadline=41h weight= 6 value= 50 dest=node 30
+   P451 deadline=41h weight=11 value= 80 dest=node 112
+   P482 deadline=41h weight=20 value= 16 dest=node 316
+   P681 deadline=41h weight=16 value= 27 dest=node 265
+   P694 deadline=41h weight=10 value= 69 dest=node 75
+   P710 deadline=41h weight=10 value= 66 dest=node 65
+   P730 deadline=41h weight= 3 value= 64 dest=node 123
+   P753 deadline=41h weight=11 value= 30 dest=node 373
+   P755 deadline=41h weight= 9 value= 71 dest=node 153
+   P808 deadline=41h weight=12 value= 62 dest=node 221
+   P829 deadline=41h weight=20 value= 11 dest=node 399
+   P873 deadline=41h weight=12 value= 55 dest=node 155
+   P931 deadline=41h weight=15 value= 46 dest=node 93
+   P939 deadline=41h weight= 9 value= 89 dest=node 286
+    P37 deadline=42h weight=18 value= 98 dest=node 89
+    P42 deadline=42h weight=18 value= 74 dest=node 254
+    P97 deadline=42h weight= 1 value= 88 dest=node 85
+   P108 deadline=42h weight=13 value= 47 dest=node 28
+   P193 deadline=42h weight=20 value= 41 dest=node 152
+   P247 deadline=42h weight= 1 value= 65 dest=node 85
+   P260 deadline=42h weight= 9 value= 21 dest=node 279
+   P286 deadline=42h weight= 9 value= 59 dest=node 249
+   P296 deadline=42h weight=14 value= 87 dest=node 46
+   P313 deadline=42h weight= 7 value= 44 dest=node 210
+   P315 deadline=42h weight=16 value= 26 dest=node 89
+   P415 deadline=42h weight= 2 value= 11 dest=node 81
+   P419 deadline=42h weight= 8 value= 80 dest=node 194
+   P427 deadline=42h weight=18 value= 36 dest=node 344
+   P454 deadline=42h weight= 5 value=100 dest=node 92
+   P533 deadline=42h weight= 5 value= 95 dest=node 121
+   P543 deadline=42h weight= 4 value= 32 dest=node 311
+   P606 deadline=42h weight= 1 value= 58 dest=node 106
+   P608 deadline=42h weight= 5 value= 64 dest=node 300
+   P624 deadline=42h weight=13 value= 88 dest=node 267
+   P631 deadline=42h weight=12 value= 40 dest=node 1
+   P698 deadline=42h weight=11 value= 50 dest=node 150
+   P699 deadline=42h weight= 9 value= 87 dest=node 203
+   P732 deadline=42h weight= 9 value= 46 dest=node 381
+   P784 deadline=42h weight=11 value= 62 dest=node 165
+   P825 deadline=42h weight= 4 value= 86 dest=node 154
+   P922 deadline=42h weight=11 value= 98 dest=node 365
+   P156 deadline=43h weight=11 value= 10 dest=node 193
+   P164 deadline=43h weight= 2 value= 65 dest=node 67
+   P205 deadline=43h weight= 4 value= 41 dest=node 124
+   P251 deadline=43h weight=18 value= 43 dest=node 145
+   P265 deadline=43h weight= 5 value= 99 dest=node 50
+   P336 deadline=43h weight=10 value= 31 dest=node 286
+   P372 deadline=43h weight=20 value= 16 dest=node 56
+   P412 deadline=43h weight= 4 value= 65 dest=node 373
+   P461 deadline=43h weight= 5 value= 16 dest=node 29
+   P468 deadline=43h weight=10 value= 98 dest=node 25
+   P501 deadline=43h weight= 3 value= 36 dest=node 323
+   P528 deadline=43h weight= 4 value= 33 dest=node 291
+   P536 deadline=43h weight=11 value= 88 dest=node 157
+   P586 deadline=43h weight= 6 value= 89 dest=node 262
+   P615 deadline=43h weight=13 value= 27 dest=node 61
+   P627 deadline=43h weight= 1 value= 35 dest=node 266
+   P658 deadline=43h weight= 3 value= 96 dest=node 253
+   P751 deadline=43h weight= 4 value= 76 dest=node 107
+   P800 deadline=43h weight= 7 value= 77 dest=node 128
+   P864 deadline=43h weight= 9 value= 94 dest=node 185
+   P942 deadline=43h weight= 5 value= 14 dest=node 296
+     P1 deadline=44h weight=19 value= 92 dest=node 332
+     P6 deadline=44h weight=13 value= 69 dest=node 302
+    P66 deadline=44h weight=11 value= 41 dest=node 202
+    P78 deadline=44h weight=16 value= 53 dest=node 391
+   P138 deadline=44h weight= 4 value= 83 dest=node 371
+   P177 deadline=44h weight=17 value= 16 dest=node 154
+   P272 deadline=44h weight=17 value= 83 dest=node 318
+   P289 deadline=44h weight=20 value= 87 dest=node 356
+   P314 deadline=44h weight=17 value= 12 dest=node 5
+   P520 deadline=44h weight= 5 value= 48 dest=node 374
+   P554 deadline=44h weight= 8 value= 88 dest=node 85
+   P591 deadline=44h weight=17 value= 74 dest=node 215
+   P596 deadline=44h weight=18 value= 10 dest=node 333
+   P630 deadline=44h weight=20 value= 31 dest=node 19
+   P668 deadline=44h weight= 1 value= 11 dest=node 108
+   P752 deadline=44h weight=16 value= 59 dest=node 160
+   P763 deadline=44h weight=16 value= 21 dest=node 317
+   P782 deadline=44h weight= 7 value= 77 dest=node 255
+   P803 deadline=44h weight=19 value= 55 dest=node 235
+   P878 deadline=44h weight=13 value= 76 dest=node 314
+   P895 deadline=44h weight= 8 value= 39 dest=node 14
+   P991 deadline=44h weight= 4 value= 76 dest=node 68
+   P124 deadline=45h weight= 3 value= 49 dest=node 224
+   P155 deadline=45h weight=12 value= 91 dest=node 5
+   P174 deadline=45h weight=10 value=100 dest=node 309
+   P210 deadline=45h weight= 1 value=100 dest=node 181
+   P235 deadline=45h weight= 7 value= 41 dest=node 35
+   P373 deadline=45h weight= 1 value= 16 dest=node 60
+   P376 deadline=45h weight= 5 value= 36 dest=node 352
+   P379 deadline=45h weight=20 value= 87 dest=node 71
+   P411 deadline=45h weight=17 value= 98 dest=node 317
+   P443 deadline=45h weight=17 value= 32 dest=node 297
+   P449 deadline=45h weight=14 value= 87 dest=node 384
+   P450 deadline=45h weight=17 value= 48 dest=node 281
+   P455 deadline=45h weight=17 value= 79 dest=node 327
+   P503 deadline=45h weight= 7 value= 78 dest=node 380
+   P616 deadline=45h weight= 8 value= 67 dest=node 83
+   P629 deadline=45h weight=17 value= 76 dest=node 119
+   P647 deadline=45h weight= 8 value= 96 dest=node 118
+   P649 deadline=45h weight=18 value= 11 dest=node 135
+   P684 deadline=45h weight=13 value= 22 dest=node 84
+   P731 deadline=45h weight=17 value= 88 dest=node 351
+   P736 deadline=45h weight=15 value= 44 dest=node 319
+   P824 deadline=45h weight=16 value= 98 dest=node 296
+   P858 deadline=45h weight=20 value= 28 dest=node 358
+   P896 deadline=45h weight=12 value= 20 dest=node 245
+   P198 deadline=46h weight= 1 value= 58 dest=node 184
+   P220 deadline=46h weight= 3 value= 57 dest=node 340
+   P224 deadline=46h weight=11 value= 32 dest=node 288
+   P317 deadline=46h weight=20 value= 49 dest=node 364
+   P326 deadline=46h weight= 9 value= 93 dest=node 334
+   P332 deadline=46h weight= 2 value= 84 dest=node 293
+   P349 deadline=46h weight= 5 value= 50 dest=node 93
+   P458 deadline=46h weight=19 value= 95 dest=node 214
+   P472 deadline=46h weight= 8 value= 91 dest=node 364
+   P484 deadline=46h weight=12 value= 19 dest=node 163
+   P562 deadline=46h weight=11 value= 23 dest=node 267
+   P728 deadline=46h weight= 8 value= 30 dest=node 378
+   P748 deadline=46h weight= 1 value= 25 dest=node 128
+   P795 deadline=46h weight=14 value= 57 dest=node 30
+   P884 deadline=46h weight=10 value= 98 dest=node 269
+     P9 deadline=47h weight= 3 value= 24 dest=node 73
+    P93 deadline=47h weight=13 value= 21 dest=node 53
+    P98 deadline=47h weight=15 value= 54 dest=node 110
+   P333 deadline=47h weight= 7 value= 53 dest=node 366
+   P338 deadline=47h weight= 5 value= 43 dest=node 287
+   P359 deadline=47h weight= 1 value= 90 dest=node 128
+   P368 deadline=47h weight= 5 value= 37 dest=node 12
+   P397 deadline=47h weight=20 value= 44 dest=node 48
+   P409 deadline=47h weight=17 value= 83 dest=node 290
+   P474 deadline=47h weight=20 value= 35 dest=node 100
+   P495 deadline=47h weight= 9 value= 79 dest=node 145
+   P512 deadline=47h weight= 1 value= 92 dest=node 317
+   P545 deadline=47h weight= 7 value= 43 dest=node 321
+   P587 deadline=47h weight= 9 value= 31 dest=node 352
+   P623 deadline=47h weight=20 value= 14 dest=node 197
+   P677 deadline=47h weight= 8 value= 22 dest=node 139
+   P740 deadline=47h weight= 5 value= 66 dest=node 5
+   P768 deadline=47h weight=12 value= 66 dest=node 99
+   P778 deadline=47h weight=17 value= 58 dest=node 95
+   P851 deadline=47h weight=12 value= 29 dest=node 44
+   P887 deadline=47h weight=18 value= 78 dest=node 61
+   P959 deadline=47h weight=16 value= 76 dest=node 324
+    P52 deadline=48h weight=14 value= 23 dest=node 335
+   P139 deadline=48h weight= 4 value= 39 dest=node 261
+   P161 deadline=48h weight=12 value= 68 dest=node 44
+   P166 deadline=48h weight=13 value= 99 dest=node 168
+   P179 deadline=48h weight=15 value= 81 dest=node 282
+   P206 deadline=48h weight= 9 value= 78 dest=node 29
+   P291 deadline=48h weight= 8 value= 16 dest=node 244
+   P309 deadline=48h weight= 6 value= 43 dest=node 353
+   P394 deadline=48h weight=11 value= 64 dest=node 60
+   P441 deadline=48h weight= 1 value= 77 dest=node 25
+   P466 deadline=48h weight=18 value= 38 dest=node 332
+   P604 deadline=48h weight= 1 value=100 dest=node 4
+   P654 deadline=48h weight= 7 value= 73 dest=node 103
+   P679 deadline=48h weight= 7 value= 28 dest=node 77
+   P686 deadline=48h weight= 4 value= 67 dest=node 172
+   P716 deadline=48h weight=15 value= 90 dest=node 326
+   P802 deadline=48h weight=18 value= 63 dest=node 55
+   P890 deadline=48h weight=10 value= 66 dest=node 327
+   P910 deadline=48h weight=18 value= 60 dest=node 21
+   P996 deadline=48h weight=17 value= 94 dest=node 160
+
+=== Knapsack (capacity 2500) ===
+  Best total value : 28574
+  Total weight     : 2500
+  Selected parcels : P111, P129, P140, P234, P357, P553, P721, P853, P242, P292, P310, P405, P517, P546, P875, P892, P962, P142, P213, P370, P513, P770, P995, P343, P470, P625, P756, P764, P953, P88, P92, P114, P147, P324, P504, P570, P640, P646, P797, P121, P159, P245, P275, P744, P921, P15, P24, P79, P87, P221, P321, P337, P402, P435, P531, P592, P669, P787, P908, P14, P32, P456, P511, P666, P759, P1000, P64, P82, P95, P168, P294, P329, P347, P365, P448, P544, P569, P663, P734, P877, P882, P65, P282, P620, P708, P765, P885, P888, P973, P244, P257, P353, P462, P486, P704, P711, P848, P475, P476, P196, P216, P274, P382, P498, P861, P932, P998, P55, P75, P249, P297, P822, P855, P46, P86, P146, P204, P230, P312, P508, P518, P558, P559, P573, P791, P539, P809, P820, P870, P879, P904, P3, P390, P507, P527, P566, P580, P670, P685, P703, P103, P191, P195, P352, P662, P816, P874, P951, P61, P342, P363, P391, P582, P912, P914, P945, P961, P966, P106, P172, P270, P515, P880, P930, P967, P997, P25, P39, P175, P279, P325, P408, P417, P844, P948, P982, P339, P341, P350, P410, P429, P695, P697, P971, P59, P176, P209, P266, P285, P340, P360, P396, P413, P453, P557, P614, P665, P712, P827, P847, P941, P71, P94, P141, P304, P306, P393, P496, P560, P674, P687, P700, P726, P743, P779, P34, P109, P207, P237, P278, P318, P589, P599, P619, P769, P799, P826, P863, P288, P331, P550, P567, P633, P838, P841, P63, P68, P160, P377, P384, P576, P889, P901, P944, P983, P188, P502, P673, P678, P516, P854, P916, P170, P263, P480, P529, P541, P644, P735, P750, P920, P11, P215, P386, P400, P457, P823, P950, P989, P43, P158, P223, P330, P406, P535, P626, P789, P867, P70, P514, P617, P692, P832, P839, P988, P16, P268, P320, P378, P383, P433, P490, P598, P754, P915, P51, P60, P212, P334, P473, P549, P781, P831, P104, P250, P253, P635, P767, P794, P136, P150, P228, P240, P311, P388, P483, P556, P642, P683, P928, P957, P31, P184, P218, P547, P859, P214, P572, P583, P588, P806, P813, P897, P956, P994, P99, P354, P371, P534, P618, P963, P73, P110, P123, P134, P183, P351, P451, P694, P710, P730, P755, P939, P97, P247, P286, P296, P313, P419, P454, P533, P543, P606, P608, P624, P699, P825, P922, P164, P205, P265, P412, P468, P501, P528, P536, P586, P627, P658, P751, P800, P864, P138, P520, P554, P668, P782, P991, P124, P155, P174, P210, P373, P376, P449, P503, P616, P647, P198, P220, P326, P332, P349, P472, P748, P884, P9, P333, P338, P359, P368, P495, P512, P740, P139, P166, P206, P309, P441, P604, P654, P686, P890
+
+=== Shortest distance from depot (Dijkstra) ===
+  depot -> node 1: 2
+  depot -> node 2: 11
+  depot -> node 4: 19
+  depot -> node 5: 20
+  depot -> node 7: 4
+  depot -> node 9: 17
+  depot -> node 12: 18
+  depot -> node 15: 25
+  depot -> node 19: 10
+  depot -> node 21: 24
+  depot -> node 22: 20
+  depot -> node 23: 16
+  depot -> node 25: 22
+  depot -> node 28: 26
+  depot -> node 29: 19
+  depot -> node 30: 11
+  depot -> node 31: 26
+  depot -> node 32: 29
+  depot -> node 33: 23
+  depot -> node 36: 29
+  depot -> node 40: 23
+  depot -> node 41: 31
+  depot -> node 44: 15
+  depot -> node 45: 23
+  depot -> node 46: 29
+  depot -> node 47: 22
+  depot -> node 50: 38
+  depot -> node 53: 40
+  depot -> node 54: 27
+  depot -> node 55: 23
+  depot -> node 56: 35
+  depot -> node 58: 27
+  depot -> node 60: 23
+  depot -> node 63: 27
+  depot -> node 65: 38
+  depot -> node 67: 7
+  depot -> node 68: 31
+  depot -> node 69: 28
+  depot -> node 70: 30
+  depot -> node 71: 29
+  depot -> node 73: 33
+  depot -> node 74: 33
+  depot -> node 75: 32
+  depot -> node 76: 23
+  depot -> node 79: 31
+  depot -> node 82: 29
+  depot -> node 83: 13
+  depot -> node 84: 22
+  depot -> node 85: 29
+  depot -> node 86: 22
+  depot -> node 87: 22
+  depot -> node 89: 26
+  depot -> node 90: 28
+  depot -> node 91: 23
+  depot -> node 92: 20
+  depot -> node 93: 27
+  depot -> node 96: 25
+  depot -> node 97: 24
+  depot -> node 98: 22
+  depot -> node 99: 27
+  depot -> node 100: 31
+  depot -> node 101: 31
+  depot -> node 102: 23
+  depot -> node 103: 4
+  depot -> node 104: 25
+  depot -> node 106: 31
+  depot -> node 107: 35
+  depot -> node 108: 21
+  depot -> node 110: 28
+  depot -> node 111: 24
+  depot -> node 112: 23
+  depot -> node 113: 29
+  depot -> node 114: 19
+  depot -> node 115: 28
+  depot -> node 117: 32
+  depot -> node 118: 19
+  depot -> node 120: 17
+  depot -> node 121: 18
+  depot -> node 123: 19
+  depot -> node 124: 18
+  depot -> node 126: 24
+  depot -> node 128: 27
+  depot -> node 129: 25
+  depot -> node 131: 25
+  depot -> node 133: 30
+  depot -> node 135: 27
+  depot -> node 136: 26
+  depot -> node 139: 23
+  depot -> node 140: 28
+  depot -> node 142: 33
+  depot -> node 145: 24
+  depot -> node 146: 16
+  depot -> node 147: 23
+  depot -> node 149: 24
+  depot -> node 152: 23
+  depot -> node 153: 27
+  depot -> node 154: 23
+  depot -> node 156: 38
+  depot -> node 157: 23
+  depot -> node 159: 28
+  depot -> node 160: 25
+  depot -> node 161: 21
+  depot -> node 163: 35
+  depot -> node 164: 21
+  depot -> node 165: 22
+  depot -> node 167: 32
+  depot -> node 168: 28
+  depot -> node 169: 27
+  depot -> node 170: 22
+  depot -> node 172: 27
+  depot -> node 173: 27
+  depot -> node 174: 23
+  depot -> node 176: 20
+  depot -> node 179: 29
+  depot -> node 180: 29
+  depot -> node 181: 26
+  depot -> node 182: 19
+  depot -> node 184: 27
+  depot -> node 185: 22
+  depot -> node 187: 33
+  depot -> node 189: 27
+  depot -> node 191: 21
+  depot -> node 192: 18
+  depot -> node 193: 22
+  depot -> node 194: 26
+  depot -> node 196: 30
+  depot -> node 197: 20
+  depot -> node 198: 32
+  depot -> node 199: 27
+  depot -> node 201: 24
+  depot -> node 202: 14
+  depot -> node 203: 27
+  depot -> node 204: 28
+  depot -> node 206: 29
+  depot -> node 208: 13
+  depot -> node 209: 18
+  depot -> node 210: 11
+  depot -> node 211: 28
+  depot -> node 213: 29
+  depot -> node 214: 21
+  depot -> node 215: 26
+  depot -> node 216: 24
+  depot -> node 219: 26
+  depot -> node 220: 25
+  depot -> node 223: 28
+  depot -> node 224: 28
+  depot -> node 225: 26
+  depot -> node 226: 24
+  depot -> node 227: 29
+  depot -> node 229: 10
+  depot -> node 231: 31
+  depot -> node 232: 22
+  depot -> node 233: 24
+  depot -> node 234: 25
+  depot -> node 238: 26
+  depot -> node 239: 29
+  depot -> node 241: 22
+  depot -> node 242: 22
+  depot -> node 243: 23
+  depot -> node 244: 34
+  depot -> node 249: 26
+  depot -> node 250: 27
+  depot -> node 251: 36
+  depot -> node 252: 20
+  depot -> node 253: 20
+  depot -> node 254: 21
+  depot -> node 255: 30
+  depot -> node 258: 33
+  depot -> node 260: 24
+  depot -> node 261: 25
+  depot -> node 262: 27
+  depot -> node 264: 28
+  depot -> node 265: 20
+  depot -> node 266: 33
+  depot -> node 267: 25
+  depot -> node 269: 26
+  depot -> node 270: 28
+  depot -> node 272: 24
+  depot -> node 273: 16
+  depot -> node 274: 14
+  depot -> node 275: 14
+  depot -> node 276: 21
+  depot -> node 278: 30
+  depot -> node 282: 23
+  depot -> node 284: 17
+  depot -> node 285: 34
+  depot -> node 286: 29
+  depot -> node 287: 31
+  depot -> node 289: 22
+  depot -> node 290: 18
+  depot -> node 291: 35
+  depot -> node 293: 20
+  depot -> node 294: 24
+  depot -> node 298: 27
+  depot -> node 299: 26
+  depot -> node 300: 27
+  depot -> node 303: 32
+  depot -> node 305: 12
+  depot -> node 306: 28
+  depot -> node 308: 13
+  depot -> node 309: 25
+  depot -> node 310: 21
+  depot -> node 311: 34
+  depot -> node 312: 34
+  depot -> node 313: 24
+  depot -> node 314: 20
+  depot -> node 317: 32
+  depot -> node 320: 27
+  depot -> node 321: 27
+  depot -> node 322: 28
+  depot -> node 323: 28
+  depot -> node 324: 36
+  depot -> node 325: 34
+  depot -> node 326: 28
+  depot -> node 327: 27
+  depot -> node 328: 23
+  depot -> node 329: 25
+  depot -> node 330: 16
+  depot -> node 331: 26
+  depot -> node 333: 27
+  depot -> node 334: 27
+  depot -> node 336: 19
+  depot -> node 338: 24
+  depot -> node 339: 23
+  depot -> node 340: 23
+  depot -> node 341: 38
+  depot -> node 342: 27
+  depot -> node 343: 33
+  depot -> node 345: 22
+  depot -> node 347: 25
+  depot -> node 349: 27
+  depot -> node 350: 31
+  depot -> node 351: 25
+  depot -> node 352: 18
+  depot -> node 353: 32
+  depot -> node 357: 34
+  depot -> node 358: 19
+  depot -> node 359: 18
+  depot -> node 360: 26
+  depot -> node 361: 34
+  depot -> node 364: 32
+  depot -> node 365: 28
+  depot -> node 366: 38
+  depot -> node 368: 32
+  depot -> node 370: 22
+  depot -> node 371: 20
+  depot -> node 373: 19
+  depot -> node 374: 35
+  depot -> node 375: 24
+  depot -> node 376: 24
+  depot -> node 377: 38
+  depot -> node 378: 29
+  depot -> node 379: 28
+  depot -> node 380: 12
+  depot -> node 381: 33
+  depot -> node 383: 29
+  depot -> node 384: 58
+  depot -> node 385: 29
+  depot -> node 390: 29
+  depot -> node 391: 21
+  depot -> node 395: 31
+  depot -> node 397: 14
+  depot -> node 398: 30
+
+=== Delivery route (nearest-neighbor TSP) ===
+  Stop order : 0 -> 1 -> 67 -> 229 -> 380 -> 208 -> 29 -> 22 -> 102 -> 136 -> 379 -> 84 -> 226 -> 320 -> 165 -> 299 -> 31 -> 124 -> 272 -> 360 -> 185 -> 260 -> 120 -> 197 -> 173 -> 179 -> 306 -> 28 -> 326 -> 110 -> 198 -> 211 -> 58 -> 71 -> 239 -> 139 -> 290 -> 397 -> 210 -> 19 -> 23 -> 336 -> 21 -> 225 -> 174 -> 232 -> 152 -> 170 -> 203 -> 36 -> 342 -> 340 -> 111 -> 276 -> 104 -> 90 -> 154 -> 234 -> 54 -> 184 -> 243 -> 169 -> 331 -> 85 -> 115 -> 98 -> 265 -> 145 -> 129 -> 63 -> 69 -> 9 -> 40 -> 220 -> 176 -> 216 -> 76 -> 194 -> 338 -> 135 -> 89 -> 87 -> 359 -> 274 -> 146 -> 182 -> 330 -> 305 -> 192 -> 193 -> 55 -> 70 -> 74 -> 187 -> 285 -> 126 -> 365 -> 219 -> 149 -> 317 -> 291 -> 287 -> 60 -> 5 -> 32 -> 56 -> 96 -> 371 -> 352 -> 370 -> 293 -> 309 -> 128 -> 314 -> 273 -> 118 -> 2 -> 45 -> 223 -> 75 -> 266 -> 311 -> 172 -> 241 -> 123 -> 375 -> 242 -> 333 -> 339 -> 108 -> 97 -> 214 -> 160 -> 224 -> 41 -> 147 -> 361 -> 312 -> 378 -> 269 -> 233 -> 191 -> 114 -> 328 -> 376 -> 368 -> 253 -> 284 -> 373 -> 313 -> 159 -> 189 -> 33 -> 168 -> 343 -> 53 -> 329 -> 12 -> 25 -> 131 -> 101 -> 308 -> 112 -> 68 -> 334 -> 142 -> 364 -> 264 -> 374 -> 121 -> 252 -> 167 -> 390 -> 106 -> 300 -> 327 -> 140 -> 255 -> 289 -> 4 -> 347 -> 349 -> 44 -> 267 -> 391 -> 206 -> 358 -> 46 -> 153 -> 350 -> 164 -> 30 -> 7 -> 103 -> 275 -> 180 -> 298 -> 254 -> 157 -> 238 -> 79 -> 341 -> 294 -> 196 -> 133 -> 353 -> 250 -> 321 -> 161 -> 91 -> 201 -> 213 -> 270 -> 99 -> 282 -> 278 -> 249 -> 310 -> 73 -> 15 -> 50 -> 163 -> 117 -> 209 -> 92 -> 83 -> 202 -> 231 -> 93 -> 199 -> 227 -> 47 -> 381 -> 286 -> 357 -> 351 -> 322 -> 262 -> 303 -> 244 -> 261 -> 82 -> 113 -> 251 -> 325 -> 345 -> 86 -> 215 -> 324 -> 323 -> 383 -> 385 -> 181 -> 377 -> 395 -> 204 -> 65 -> 366 -> 398 -> 107 -> 258 -> 100 -> 156 -> 384 -> 0
+  Full path  : 0 -> 1 -> 67 -> 229 -> 380 -> 229 -> 67 -> 52 -> 208 -> 105 -> 29 -> 22 -> 102 -> 136 -> 72 -> 379 -> 72 -> 84 -> 226 -> 320 -> 301 -> 165 -> 301 -> 299 -> 31 -> 124 -> 272 -> 360 -> 185 -> 260 -> 185 -> 120 -> 197 -> 173 -> 179 -> 228 -> 306 -> 28 -> 326 -> 119 -> 110 -> 198 -> 211 -> 236 -> 58 -> 71 -> 58 -> 239 -> 139 -> 290 -> 397 -> 210 -> 6 -> 3 -> 19 -> 23 -> 205 -> 336 -> 288 -> 21 -> 288 -> 225 -> 174 -> 232 -> 152 -> 155 -> 170 -> 203 -> 36 -> 203 -> 342 -> 340 -> 111 -> 276 -> 237 -> 104 -> 90 -> 104 -> 154 -> 234 -> 54 -> 184 -> 268 -> 243 -> 169 -> 331 -> 85 -> 331 -> 115 -> 98 -> 115 -> 265 -> 145 -> 129 -> 63 -> 129 -> 382 -> 69 -> 62 -> 9 -> 40 -> 220 -> 176 -> 216 -> 176 -> 76 -> 176 -> 194 -> 338 -> 135 -> 89 -> 87 -> 359 -> 274 -> 146 -> 182 -> 146 -> 330 -> 146 -> 274 -> 305 -> 192 -> 193 -> 192 -> 143 -> 55 -> 70 -> 74 -> 70 -> 187 -> 285 -> 126 -> 365 -> 126 -> 57 -> 219 -> 149 -> 219 -> 317 -> 291 -> 287 -> 60 -> 5 -> 32 -> 56 -> 96 -> 371 -> 352 -> 370 -> 293 -> 16 -> 309 -> 128 -> 392 -> 314 -> 273 -> 118 -> 273 -> 2 -> 45 -> 223 -> 75 -> 266 -> 75 -> 311 -> 172 -> 367 -> 241 -> 367 -> 123 -> 375 -> 123 -> 242 -> 333 -> 339 -> 108 -> 97 -> 214 -> 160 -> 369 -> 224 -> 41 -> 224 -> 147 -> 361 -> 195 -> 312 -> 378 -> 269 -> 233 -> 191 -> 114 -> 328 -> 114 -> 372 -> 376 -> 368 -> 253 -> 284 -> 373 -> 284 -> 66 -> 313 -> 66 -> 159 -> 189 -> 33 -> 168 -> 343 -> 53 -> 343 -> 168 -> 329 -> 20 -> 12 -> 25 -> 131 -> 101 -> 308 -> 112 -> 68 -> 334 -> 332 -> 142 -> 364 -> 264 -> 374 -> 234 -> 154 -> 121 -> 252 -> 137 -> 167 -> 396 -> 390 -> 106 -> 300 -> 327 -> 140 -> 255 -> 140 -> 64 -> 289 -> 4 -> 289 -> 347 -> 289 -> 349 -> 44 -> 205 -> 23 -> 267 -> 23 -> 138 -> 391 -> 206 -> 358 -> 151 -> 46 -> 34 -> 362 -> 153 -> 350 -> 153 -> 164 -> 18 -> 277 -> 30 -> 1 -> 0 -> 7 -> 0 -> 103 -> 275 -> 69 -> 180 -> 298 -> 254 -> 157 -> 254 -> 238 -> 335 -> 79 -> 177 -> 341 -> 294 -> 196 -> 133 -> 60 -> 353 -> 250 -> 49 -> 321 -> 161 -> 91 -> 201 -> 213 -> 201 -> 270 -> 99 -> 8 -> 17 -> 38 -> 282 -> 233 -> 278 -> 233 -> 269 -> 249 -> 337 -> 310 -> 73 -> 15 -> 12 -> 25 -> 50 -> 163 -> 117 -> 45 -> 209 -> 92 -> 83 -> 7 -> 202 -> 257 -> 231 -> 88 -> 93 -> 240 -> 199 -> 378 -> 283 -> 190 -> 227 -> 29 -> 105 -> 208 -> 47 -> 381 -> 256 -> 286 -> 371 -> 96 -> 357 -> 257 -> 351 -> 322 -> 70 -> 187 -> 386 -> 262 -> 303 -> 244 -> 333 -> 242 -> 261 -> 39 -> 82 -> 84 -> 72 -> 379 -> 113 -> 170 -> 251 -> 355 -> 325 -> 41 -> 345 -> 52 -> 120 -> 86 -> 120 -> 215 -> 324 -> 215 -> 120 -> 323 -> 120 -> 354 -> 383 -> 385 -> 228 -> 179 -> 173 -> 279 -> 181 -> 129 -> 123 -> 367 -> 172 -> 377 -> 172 -> 338 -> 13 -> 316 -> 395 -> 380 -> 204 -> 66 -> 313 -> 65 -> 176 -> 216 -> 366 -> 149 -> 354 -> 120 -> 398 -> 350 -> 153 -> 362 -> 107 -> 362 -> 153 -> 164 -> 258 -> 281 -> 2 -> 100 -> 128 -> 309 -> 220 -> 168 -> 329 -> 20 -> 156 -> 384 -> 156 -> 20 -> 12 -> 6 -> 3 -> 0
+  Route length: 2760
+
+=== Runtime (seconds) ===
+  sorting  : 0.001760
+  knapsack : 0.449528
+  dijkstra : 0.000724
+  tsp      : 0.147945
